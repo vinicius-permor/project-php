@@ -1,0 +1,9 @@
+{
+  "window.zoomLevel": 0,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "": true
+  }
+}
