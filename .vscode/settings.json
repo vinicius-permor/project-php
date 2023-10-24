@@ -1,4 +1,6 @@
 {
+  "php.validate.enable": true,
+  "php.suggest.basic": true,
   "window.zoomLevel": 0,
   "files.autoSave": "afterDelay",
   "editor.fontSize": 12,
