@@ -221,6 +221,11 @@
                             Array Multidimencionais
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=array_constante">
+                            Array Constante
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
