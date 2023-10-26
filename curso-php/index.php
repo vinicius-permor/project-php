@@ -229,6 +229,9 @@
               <li>
                   <a href="exercicio.php?dir=repeticoes&file=desafio_for"> Desafio PHP</a>
               </li>
+                <li>
+                    <a href="exercicio.php?dir=repeticoes&file=foreach"> Foreach</a>
+                </li>
             </ul>
           </div>
         </nav>
