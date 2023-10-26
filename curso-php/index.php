@@ -224,7 +224,10 @@
             <h3> Repetições </h3>
             <ul>
               <li>
-                <a href="exercicio.php?dir=repeticoes&file=for"> Laço For </a>
+                  <a href="exercicio.php?dir=repeticoes&file=for"> Laço For </a>
+              </li>
+              <li>
+                  <a href="exercicio.php?dir=repeticoes&file=desafio_for"> Desafio PHP</a>
               </li>
             </ul>
           </div>
