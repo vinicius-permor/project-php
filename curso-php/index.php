@@ -241,6 +241,9 @@
                 <li>
                     <a href="exercicio.php?dir=repeticoes&file=while"> While/Do While </a>
                 </li>
+                <li>
+                    <a href="exercicio.php?dir=repeticoes&file=tabela"> Tabela </a>
+                </li>
             </ul>
           </div>
         </nav>
