@@ -258,6 +258,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=retorno_de_funcao"> argumentos e retorno  </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=palindromo"> Palindromo </a>
+                    </li>
                 </ul>
             </div>
         </nav>
