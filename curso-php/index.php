@@ -244,6 +244,9 @@
                 <li>
                     <a href="exercicio.php?dir=repeticoes&file=tabela"> Tabela </a>
                 </li>
+                <li>
+                    <a href="exercicio.php?dir=repeticoes&file=formulario"> Formulario </a>
+                </li>
             </ul>
           </div>
         </nav>
