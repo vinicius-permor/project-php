@@ -249,6 +249,17 @@
                 </li>
             </ul>
           </div>
+            <div class="modulo vermelho-escuro">
+                <h3> Funções </h3>
+                <ul>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=funcao_escopo"> Função Escopo </a>
+                    </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=retorno_de_funcao"> argumentos e retorno  </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
       </div>
     </main>
