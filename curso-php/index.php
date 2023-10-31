@@ -267,6 +267,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=argumento_padrao"> Argumento Padrão </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=declaracao_tipos"> Declaração de Tipos </a>
+                    </li>
                 </ul>
             </div>
         </nav>
