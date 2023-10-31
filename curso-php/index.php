@@ -270,6 +270,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=declaracao_tipos"> Declaração de Tipos </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=funcao_anonima"> Função Anonima </a>
+                    </li>
                 </ul>
             </div>
         </nav>
