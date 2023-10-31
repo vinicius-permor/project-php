@@ -261,6 +261,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=palindromo"> Palindromo </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=argumento_variaveis"> Argumento/Variaveis </a>
+                    </li>
                 </ul>
             </div>
         </nav>
