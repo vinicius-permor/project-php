@@ -264,6 +264,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=argumento_variaveis"> Argumento/Variaveis </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=argumento_padrao"> Argumento Padrão </a>
+                    </li>
                 </ul>
             </div>
         </nav>
