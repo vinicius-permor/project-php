@@ -285,6 +285,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=_retornando_funcao"> Retornando Função </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=map_filter"> Map e Filter </a>
+                    </li>
                 </ul>
             </div>
         </nav>
