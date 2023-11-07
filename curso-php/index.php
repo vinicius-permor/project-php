@@ -282,6 +282,9 @@
                     <li>
                         <a href="exercicio.php?dir=funcoes&file=_recursividade"> desafio recursão </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=funcoes&file=_retornando_funcao"> Retornando Função </a>
+                    </li>
                 </ul>
             </div>
         </nav>
