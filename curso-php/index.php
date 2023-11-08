@@ -290,6 +290,14 @@
                     </li>
                 </ul>
             </div>
+            <div class="modulo azul-escuro">
+                <h3> Paradigma O.O </h3>
+                <ul>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=classe"> Primeira classe </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
       </div>
     </main>
