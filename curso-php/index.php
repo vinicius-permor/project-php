@@ -299,6 +299,9 @@
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=_data"> Data </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=constructor_destructor"> Constructor Destructor </a>
+                    </li>
                 </ul>
             </div>
         </nav>
