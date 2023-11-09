@@ -296,6 +296,9 @@
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=classe"> Primeira classe </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=_data"> Data </a>
+                    </li>
                 </ul>
             </div>
         </nav>
