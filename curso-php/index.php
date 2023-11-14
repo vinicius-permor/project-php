@@ -311,6 +311,12 @@
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=static"> Membro de classe </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=interface"> Interface </a>
+                    </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=classe_abstrata">  Classe Abstrata </a>
+                    </li>
                 </ul>
             </div>
         </nav>

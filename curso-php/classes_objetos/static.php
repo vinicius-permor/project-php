@@ -20,3 +20,6 @@ class NovaClasse
 //$impressao->mostrandoFuncaoEstatica();
 echo NovaClasse::$varEstatica, '<br>';  //acessando somente o atributo estatico da classe.
 NovaClasse::mostrandoFuncaoEstatica(); //acessando diretamente pela classe.
+
+NovaClasse::$varEstatica = 'alternado membro de classe'; // membro de classe alterado
+echo NovaClasse::$varEstatica, '<br>'; // imprimindo membro de classe alterada
