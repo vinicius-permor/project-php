@@ -320,6 +320,9 @@
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=desafio_7_erros"> 7 erros </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=_final"> Modificador Final </a>
+                    </li>
                 </ul>
             </div>
         </nav>
