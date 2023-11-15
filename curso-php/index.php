@@ -317,6 +317,9 @@
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=classe_abstrata">  Classe Abstrata </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=desafio_7_erros"> 7 erros </a>
+                    </li>
                 </ul>
             </div>
         </nav>
