@@ -323,6 +323,12 @@
                     <li>
                         <a href="exercicio.php?dir=classes_objetos&file=_final"> Modificador Final </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=_traits"> Traits </a>
+                    </li>
+                    <li>
+                        <a href="exercicio.php?dir=classes_objetos&file=metodos_magicos"> Metodos Magicos </a>
+                    </li>
                 </ul>
             </div>
         </nav>

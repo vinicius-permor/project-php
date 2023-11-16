@@ -1,7 +1,25 @@
 <?php
 
+trait materialParaArte
+{
+    public function papelBranco($str) {
+        echo "usando papel para desenhar da função 1 usando trait";
+    }
+}
+
+trait usandoPapelBranco
+{
+    public function papelBranco($str) {
+        echo "usando papel para desenhar da função 2 usando trait";
+    }
+}
 abstract class Caligrafia
 {
+    use materialParaArte, usandoPapelBranco {
+        usandoPapelBranco::papelBranco insteadof materialParaArte;
+    }
+
+
     public abstract function funcaoDe_lapis();
     public abstract function funcaoDe_caneta();
     public abstract function funcaoDe_pincel($parametro = 'usar somente com quadro de pintura');
@@ -49,9 +67,16 @@ class UsandoFerramenta extends MaterialDe_uso
         echo "usando ferramenta qualquer, usando criatividade para criação de arte<br>";
         parent::funcaoDe_pincel('pincel antigo para retocar pintura');
     }
+    public function papelBranco($str)
+    {
+        parent::papelBranco('usando um novo papel para desenhar uma nova arte');
+    }
 }
 
 $artistaUm = new UsandoFerramenta();
 $artistaUm->funcaoDe_pincel();
 $artistaUm->funcaoDe_lapis();
 $artistaUm->funcaoDe_caneta();
+echo "<br>";
+echo $artistaUm->papelBranco(' ');
+
