@@ -343,6 +343,9 @@
                     <li>
                         <a href="exercicio.php?dir=includes&file=include_funcao"> Include em Função </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=includes&file=include_require"> Include / Require </a>
+                    </li>
                 </ul>
             </div>
         </nav>
