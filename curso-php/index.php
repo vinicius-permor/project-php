@@ -334,6 +334,17 @@
                     </li>
                 </ul>
             </div>
+            <div class="modulo roxo-escuro">
+                <h3> Paradigma O.O </h3>
+                <ul>
+                    <li>
+                        <a href="exercicio.php?dir=includes&file=_include"> Include </a>
+                    </li>
+                    <li>
+                        <a href="exercicio.php?dir=includes&file=include_funcao"> Include em Função </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
       </div>
     </main>
