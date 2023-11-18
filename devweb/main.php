@@ -78,5 +78,4 @@ $artistaUm->funcaoDe_pincel();
 $artistaUm->funcaoDe_lapis();
 $artistaUm->funcaoDe_caneta();
 echo "<br>";
-echo $artistaUm->papelBranco(' ');
 

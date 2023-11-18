@@ -7,6 +7,6 @@ include "arquivo_inexistente.php"; // permite a renderização
 
 
 echo  "usando include com arquive inexistente<br>";
-require "arquivo_inexistente.php"; // gera um erro fatal 
+require "arquivo_inexistente.php"; // gera um erro fatal
 
 print "aqui é o final<br>";
