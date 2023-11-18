@@ -352,6 +352,9 @@
                     <li>
                         <a href="exercicio.php?dir=includes&file=include_once"> include once / require once </a>
                     </li>
+                    <li>
+                        <a href="exercicio.php?dir=includes&file=_usuario"> include </a>
+                    </li>
                 </ul>
             </div>
         </nav>
