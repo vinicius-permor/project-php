@@ -5,20 +5,14 @@
 class Pessoa {
     public $nome;
     public $idade;
-
     function __construct($nome, $idade) {
         $this->nome = $nome;
         $this->idade = $idade;
-        echo "pessoa criada<br>";
     }
 
-    function __destruct() {
-        print "pessoa está destruindo<br>";
-
-    }
 
     public function apresenta() {
-        echo "USUARIO: {$this->nome}, {$this->idade} <br>";
+        return "USUARIO: {$this->nome}, {$this->idade}";
     }
 }
  class Usuario extends Pessoa
@@ -28,17 +22,13 @@ class Pessoa {
     function __construct($nome, $idade, $login) {
         parent::__construct($nome, $idade);
         $this->login = $login;
-        echo "usuario criado<br>";
+        echo "usuario criado > ";
     }
 
-    function __destruct() {
-        echo "Usuario está destruindo<br>";
-        parent::__destruct();
-    }
 
     public function apresentando() {
-        echo "LOGIN: @{$this->login}<br>";
-        parent::apresenta();
+        print " LOGIN: @{$this->login}";
+        return parent::apresenta();
 
     }
 }
