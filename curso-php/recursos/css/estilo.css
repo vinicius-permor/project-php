@@ -187,6 +187,20 @@ body {
     background-color: #46474F;
 }
 
+.modulo.gold {
+  border: 2px solid #ffd700;
+}
+.modulo.gold > h3 {
+  background-color: #ffd700;
+}
+
+.modulo.vermelho-ferrari {
+  border: 2px solid #d32232;
+}
+.modulo.vermelho-ferrari > h3 {
+  background-color: #d32232;
+}
+
 p.divisao {
   margin-bottom: 0px;
   font-weight: bold;
