@@ -9,6 +9,6 @@ echo "<br>";
 
 $novoArquivo = fopen('teste.txt', 'r');
 $tamanho = filesize('teste.txt');
-echo $tamanho . "<br>";
+echo $tamanho . "<hr>";
 echo fread($novoArquivo, $tamanho);
 fclose($arquivo);
