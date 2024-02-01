@@ -2,6 +2,31 @@
 <div class="class"><strong> Formulario </strong></div>
 <h2> Cadastro </h2>
 <?php
+if (count($_POST) > 0){
+    if (!filter_input(INPUT_POST, 'name')){
+        echo "please enter the name", "<br>";
+    }
+    if (filter_input(INPUT_POST, 'birth')) {
+        $dataTime = DateTime::createFromFormat('d/m/Y', $_POST['birth']);
+        if (!$dataTime){
+            echo"the date must be in the standard", "<br>";
+        }
+    }
+    if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)){
+        echo "invalid email","<br>" ;
+    }
+    if (!filter_var($_POST["site"], FILTER_VALIDATE_URL)){
+        echo "invalida url","<br>";
+    }
+    $numberOfChildren = ["options"=> ["min_range"=> 0 , "max_range"=> 10]];
+    if (!filter_var($_POST['children'], FILTER_VALIDATE_INT, $numberOfChildren) && $_POST['children'] != 0){
+        echo "please enter number of children" , "<br>";
+    }
+    $salary = ["options"=>["decimal"=>"," ]];
+    if (!filter_var($_POST["salary/year"], FILTER_VALIDATE_FLOAT, $salary)){
+        echo "invalid salary" , "<br>";
+    }
+}
 
 ?>
 <form action="#" method="post">
@@ -35,10 +60,10 @@
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label for="do you have children ?"> do you have children ? </label>
-            <input type="text" class="form-control"
-                   id="do you have children ?" name="do you have children ?"
-                   placeholder="do you have children ? <?= $_POST['do you have children'] ?>">
+            <label for="children"> children </label>
+            <input type="number" class="form-control"
+                   id="children" name="children"
+                   placeholder="children <?= $_POST['children'] ?>">
         </div>
         <div class="form-group col-md-6">
             <label for="salary/year"> salary/year </label>
